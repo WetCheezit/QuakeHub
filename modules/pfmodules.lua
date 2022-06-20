@@ -44,7 +44,7 @@ local modules = {}; do
         modules.menu = debug.getupvalue(modules.hud.radarstep, 1);
         modules.loadplayer = debug.getupvalue(modules.replication.getupdater, 2);
         modules.remoteevent = modules.network and debug.getupvalue(modules.network.send, 1);
-        modules.networkfunctions = modules.remoteevent and debug.getupvalue(getconnections(modules.remoteevent.OnmodulesEvent)[1].Function, 1);
+        modules.networkfunctions = modules.remoteevent and debug.getupvalue(getconnections(modules.remoteevent.OnClientEvent)[1].Function, 1);
 
         setreadonly(modules.particle, false);
 
