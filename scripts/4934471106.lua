@@ -1,0 +1,1 @@
+print("my hero mania")
