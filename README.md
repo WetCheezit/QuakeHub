@@ -6,5 +6,5 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/WetCheezit/Quake
 ```
 
 # Supported Exploits
-Synapse X
-KRNL
+> Synapse X
+> KRNL
