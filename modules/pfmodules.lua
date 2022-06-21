@@ -33,6 +33,8 @@ local modules = {}; do
                 modules.heartbeatrunner = require(v);
             elseif (v.Name == "cframe") then
                 modules.cframe = require(v);
+            elseif (v.Name == "GunDataGetter") then
+                modules.gunDataGetter = require(v);
             end
         end
 
